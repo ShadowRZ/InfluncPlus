@@ -70,12 +70,20 @@ class BlogsSpider(scrapy.Spider):
         'mirrors.ustc.edu.cn',
         'www.ikde.org',
         'mirror.bjtu.edu.cn',
+        'mirrors.tuna.tsinghua.edu.cn',
         't.me',
         'materializecss.com',
         'python.org',
         'getpelican.com',
         'creativecommons.org',
         'yoitsu.moe',
+        'hexo.io',
+        'gohugo.io',
+        'nextjs.org',
+        'nuxtjs.org',
+        'gatsbyjs.com',
+        'www.gatsbyjs.com',
+        'jekyllrb.com',
     ]
 
     def __init__(self, **kwargs):
