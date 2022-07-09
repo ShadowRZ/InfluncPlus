@@ -59,6 +59,23 @@ class BlogsSpider(scrapy.Spider):
         'wordpress.org',
         'cn.wordpress.org',
         'bilibili.com'
+        'webchat.freenode.net',
+        'www.archlinuxcn.org',
+        'www.nyaa.cat',
+        'nyaa.cat',
+        'aosc.io',
+        'bbs.letitfly.me',
+        'github.com',
+        'srain.im',
+        'mirrors.ustc.edu.cn',
+        'www.ikde.org',
+        'mirror.bjtu.edu.cn',
+        't.me',
+        'materializecss.com',
+        'python.org',
+        'getpelican.com',
+        'creativecommons.org',
+        'yoitsu.moe',
     ]
 
     def __init__(self, **kwargs):

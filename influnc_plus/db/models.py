@@ -28,10 +28,8 @@ def create_tables():
 
 
 def prepare_initial_data():
-    skyblond = Blog(domain="skyblond.info", title="天空Blond", status="unknown", last_access_time=datetime.datetime.now())
-    himiku = Blog(domain="himiku.com", title="初之音", status="unknown", last_access_time=datetime.datetime.now())
-    skyblond.save()
-    himiku.save()
+    horo = Blog(domain="blog.yoitsu.moe", title="约伊兹的萌狼乡手札", status="unknown", last_access_time=datetime.datetime.now())
+    horo.save()
 
 
 if __name__ == '__main__':
