@@ -29,6 +29,7 @@ class FilterPipeline:
         flag, keyword = self.tester.test(item["title"])
         if flag:
             spider.console_logger.info("[{}] 发现关键词: ----> [{}] <----, 条目已在[抓取前]丢弃".format(item["title"], keyword))
+            spider.console_logger.info("[{}] 被丢弃的条目链接：{}".format(item["title"], item["url"].geturl()))
             raise DropItem("[{}] 发现关键词:{}, 条目已丢弃".format(item["title"], keyword))
         return item
 
